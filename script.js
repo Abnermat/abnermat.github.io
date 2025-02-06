@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const statusMessage = document.getElementById("status-message");
 
     let currentPosition = [0, 0]; // Posição inicial [linha, coluna]
-    let matrixSize = 5; // Tamanho da matriz 5x5
+    let matrixSize = 4; // Tamanho da matriz 4x4
     let questions = [
         { question: "Qual é o índice do primeiro elemento em um vetor?", answer: "0" },
         { question: "Quantas colunas tem uma matriz 3x3?", answer: "3" },
